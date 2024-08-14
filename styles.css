@@ -1,0 +1,116 @@
+/* Reseteo básico para mejor consistencia entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos de Navegación */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de Cabecera */
+.header {
+    background-color: #8b0000;
+    height: 20em;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    background-image: url("restaurant-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilo para el título principal */
+.main-title {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Estilos para la sección del menú */
+#menu {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los títulos de secciones */
+h2 {
+    color: #8b0000;
+    font-size: 28px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #8b0000;
+    padding-bottom: 5px;
+}
+
+/* Estilo para la lista de menú */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Estilos para la sección de contacto */
+#contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para resaltar información */
+.highlight {
+    color: #8b0000;
+    font-weight: bold;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #8b0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de Pie de Página */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #8b0000;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
